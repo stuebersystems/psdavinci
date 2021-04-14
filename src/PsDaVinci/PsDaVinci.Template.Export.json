@@ -1,0 +1,26 @@
+{
+	"daVinci": {
+		"EcfExport": {
+			"TargetFolderName": "davinci\\ecf-export",
+			"SourceProvider": "File",
+			"SourceFileName": "davinci\\beispiel.daVinci",
+			"-SourceProvider": "Server",
+			"-ServerName" : "localhost",
+			"-ServerPort" : "8100",
+			"-ServerUserName" : "admin",
+			"-ServerPassword" : "qwertz",
+			"-ServerFileID" : "{c24f1a9d-692c-47aa-9046-db444b9f0c8e}"
+		},
+		"SduiExport": {
+			"SduiPIN": "abc-def-ghi",
+			"SourceProvider": "File",
+			"SourceFileName": "davinci\\beispiel.daVinci",
+			"-SourceProvider": "Server",
+			"-ServerName" : "localhost",
+			"-ServerPort" : "8100",
+			"-ServerUserName" : "admin",
+			"-ServerPassword" : "qwertz",
+			"-ServerFileID" : "{c24f1a9d-692c-47aa-9046-db444b9f0c8e}"
+		}
+	}
+}
