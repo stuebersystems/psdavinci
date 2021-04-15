@@ -21,6 +21,18 @@
 			"-ServerUserName" : "admin",
 			"-ServerPassword" : "qwertz",
 			"-ServerFileID" : "{c24f1a9d-692c-47aa-9046-db444b9f0c8e}"
+		},
+		"IServExport": {
+			"IServUrl": "https://mein-iserv.de",
+			"IServApiToken": "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345==",
+			"SourceProvider": "File",
+			"SourceFileName": "davinci\\beispiel.daVinci",
+			"-SourceProvider": "Server",
+			"-ServerName" : "localhost",
+			"-ServerPort" : "8100",
+			"-ServerUserName" : "admin",
+			"-ServerPassword" : "qwertz",
+			"-ServerFileID" : "{c24f1a9d-692c-47aa-9046-db444b9f0c8e}"
 		}
 	}
 }

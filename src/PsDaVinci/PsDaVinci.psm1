@@ -165,7 +165,8 @@ function Start-DaVinciImport {
   This cmdlet will start a new export from DAVINCI to a supported target.
 
  .Parameter Source
-  The name of a supported export target. Currently supported are 'sdui' and 'ecf'.
+  The name of a supported export target. Currently supported are 'sdui', 'iserv' 
+  and 'ecf'.
 
  .Parameter ConfigFile
   The file name of the JSON configuration file. 
@@ -198,8 +199,9 @@ function Start-DaVinciExport {
 
 			switch ($Target)
 			{
-				([ExportTarget]::sdui) { RunDavConsole -Command "export" -Provider "sdui" -Config $Config }
-				([ExportTarget]::ecf)  { RunDavConsole -Command "export" -Provider "ecf" -Config $Config }
+				([ExportTarget]::sdui)  { RunDavConsole -Command "export" -Provider "sdui" -Config $Config }
+				([ExportTarget]::iserv) { RunDavConsole -Command "export" -Provider "iserv" -Config $Config }
+				([ExportTarget]::ecf)   { RunDavConsole -Command "export" -Provider "ecf" -Config $Config }
 			}
 		}
 		catch
@@ -360,7 +362,8 @@ Enum ImportSource {
 
 # List of supported export targets
 Enum ExportTarget {
-	sdui
+	sdui,
+	iserv,
 	ecf
 }
 
