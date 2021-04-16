@@ -1,6 +1,6 @@
 # DAVINCI PowerShell Module
 
-[![PowerShell Gallery - PSDaVinci](https://img.shields.io/badge/PowerShell%20Gallery-PsEnbrea-blue.svg)](https://www.powershellgallery.com/packages/PsDaVinci)
+[![PowerShell Gallery - PSDaVinci](https://img.shields.io/badge/PowerShell%20Gallery-PsDaVinci-blue.svg)](https://www.powershellgallery.com/packages/PsDaVinci)
 [![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://github.com/stuebersystems/psdavinci)
 [![Minimum Supported PowerShell Version](https://img.shields.io/badge/PowerShell-5.1-blue.svg)](https://github.com/stuebersystems/psdavinci)
 
